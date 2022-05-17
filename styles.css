@@ -1,0 +1,151 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2d4059;
+    padding: 10px;
+}
+.first {
+    margin-right: auto;
+}
+.item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.harvey {
+    display: flex;
+}
+.hrv {
+    flex: 1;
+}
+body {
+    background-color: #d6e6f2;
+}
+body:hover {
+    background-color: #f5eee6;
+}
+.law {
+    display: flex;
+}
+.text {
+    align-self: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.h3 {
+    color: #112d4e;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.h3:hover {
+    color: #07689f;
+}
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.branch {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+.branch:hover {
+    background-color: #384259;
+    color: white;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.go {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: #3f72af;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 15px;
+    cursor: help;
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover {
+    background-color: #384259;
+}
+@media all and (max-width: 1024px) {
+    .branch {
+        align-self: center;
+        margin-right: 15px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .court {
+        width: 550px;
+    }
+}
+@media all and (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .law {
+        display: flex;
+        flex-direction: column;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    .hrv {
+        width: 100%;
+        height: auto;
+    }
+    .court {
+        width: 100%;
+        height: auto;
+    }
+    .branch {
+        align-self: center;
+        margin-right: 40px;
+    }
+}
+@media all and (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .law {
+        display: flex;
+        flex-direction: column;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    .hrv {
+        width: 100%;
+        height: auto;
+    }
+    .court {
+        width: 100%;
+        height: auto;
+    }
+    .branch {
+        font-size: 15px;
+        padding: 20px;
+        align-self: center;
+        margin-right: 20px;
+    }
+}
